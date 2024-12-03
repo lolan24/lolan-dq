@@ -43,9 +43,9 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'False')), False)
 
 # MongoDB information
-SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://lolan2:lolan2@cluster0.p8qqh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://lolan1:lolan1@cluster0.o2cqk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "lolan1")
+SECONDDB_URI = environ.get('SECONDDB_URI', "mongodb+srv://lolan4:lolan4@cluster0.ef90y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://lolan3:lolan3@cluster0.nrd9a.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "lolan3")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TGX_FILES')
 
 # Others
